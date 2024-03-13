@@ -1,8 +1,6 @@
 from machine import Pin
 from IR_remote import ir_receptor
 Receptor_pin = ir_receptor(23)
-
-Receptor_pin = ir_receptor(23)
 Led1 = Pin(16, Pin.OUT)
 Led2 = Pin(17,Pin.OUT)
 Led3 = Pin(5,Pin.OUT)
